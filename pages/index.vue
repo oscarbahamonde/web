@@ -1,0 +1,21 @@
+<template>
+  <v-row justify="center" align="center">
+    <v-col cols="12" sm="8" md="6">
+      <v-card class="hero">
+        <NuxtLogo />
+        <VuetifyLogo />
+      </v-card>     
+    </v-col>
+  </v-row>
+</template>
+
+<script>
+export default {
+  name: "IndexPage",
+};
+</script>
+<style lang="scss">
+.hero {
+  @apply h-screen flex flex-row items-center justify-center;
+}
+</style>
